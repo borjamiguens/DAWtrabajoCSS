@@ -1,40 +1,52 @@
 body{
-	text-align:center;
+	text-align: center;
 }
 
-#bloqueSuperior {
+#bloques {/* bloque que coge todos los divs*/
 	
-	padding : 10px 10px 10px 10px;/*arriba,derecha,abajo,izqda*/
+	
+	
+	border: 1px solid red;
+}
+
+#bloqueSuperior{/*div que coge div imagen y div navegador*/
+	
+	
+	/*border: 1px solid red;*/
+	
+}
+#bloqueImagen {
+	
+	/*padding : 10px 10px 10px 10px;/*arriba,derecha,abajo,izqda*/
 	
 	height:106px;
-	width:700px;
-}
-
-#bloques {
-	text-align: left;
-	margin:auto;
+	/*width:700px; esto tengo que quitarlo para que el elemento se adapte a la pagina*/
+	
+	/*border: 1px solid red;*/
+	margin: 0px 0px 0px 0px;
+	background-image: url("superior.jpg");
 }
 
 
 #navegador{
-	background-color: purple;
-	background: linear-gradient(red,pink);
-	padding-top: 5px;
-	padding-bottom:5px;
+	height:30px;
+	/*width:700px; esto tengo que quitarlo para que el elemento se adapte a la pagina*/
+	/*background-color: purple;
+	background: linear-gradient(red,pink);*/
+	/*background-image: url("gris.jpg");*/
+	background-color: red;
+	padding: : 10px 10px 10px 10px;
+	/*border: 1px solid red;*/
 }
 
 
-
-
-#enlaceSuperior1{
+.enlace{
+	
+	font: bold 1.2em arial;
 	float:left;
-	padding : 0px 0px 0px 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding : 0px 0px 0px 15px;
+	
 }
-#enlaceSuperior2{
-	float:left;
-	padding : 0px 0px 0px 20px;
-}
-#enlaceSuperior3{
-	float:left;
-	padding : 0px 0px 0px 20px;
-}
+
