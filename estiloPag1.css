@@ -1,0 +1,40 @@
+body{
+	text-align:center;
+}
+
+#bloqueSuperior {
+	
+	padding : 10px 10px 10px 10px;/*arriba,derecha,abajo,izqda*/
+	
+	height:106px;
+	width:700px;
+}
+
+#bloques {
+	text-align: left;
+	margin:auto;
+}
+
+
+#navegador{
+	background-color: purple;
+	background: linear-gradient(red,pink);
+	padding-top: 5px;
+	padding-bottom:5px;
+}
+
+
+
+
+#enlaceSuperior1{
+	float:left;
+	padding : 0px 0px 0px 20px;
+}
+#enlaceSuperior2{
+	float:left;
+	padding : 0px 0px 0px 20px;
+}
+#enlaceSuperior3{
+	float:left;
+	padding : 0px 0px 0px 20px;
+}
