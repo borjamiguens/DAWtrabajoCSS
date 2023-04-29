@@ -6,7 +6,7 @@ body{
 	
 	
 	
-	border: 1px solid red;
+	
 }
 
 #bloqueSuperior{/*div que coge div imagen y div navegador*/
@@ -50,36 +50,83 @@ body{
 	
 }
 
-#bloqueMedio{
-	
-	padding : 10px 10px 10px 10px;
-	
+#bloqueMedio1{	
+	padding : 10px 10px 10px 10px;	
 }
 
-
-
-#presentacion{
-	margin: 30px 30px 0px 00px;
-	width: 500px;
-	float:right;
+.destino{
+	margin: 20px 20px 20px 20px;		
 }
 
-#formulario{
-	margin: 30px 0px 0px 30px;
+.cajaDestinoIzquierda{
+	width: 650px;
+	height:650px;
+	margin: 50px 0px 0px 50px;
 	float:left;
 }
 
-.etiqueta{
-	font: 1.1em arial;
-	text-align:left;
+.cajaDestinoDerecha{
+	width: 650px;
+	height:650px;
+	margin: 50px 50px 0px 0px;
+	float:right;
+
+}
+
+
+
+#destino1{
+	width: 1500px;
+	height:750px;
+	border: 1px solid red;
+	
+}
+
+#textoDestino1{
+	
+	
+	border:  1px solid red;
+}
+
+#tituloDestino1{
+	padding: 10px 30px 0px 30px;
+	
+}
+#parrafoDestino1{
+	padding: 10px 30px 0px 30px;
+	
+}
+
+
+
+#imagenDestino1{
+	
+	
+
+	
+}
+
+
+
+.titulo{
+	
 }
 
 .parrafo{
-	font: 1.1em arial;
+	
+}
+
+h1{
+	font: 1.4em  arial;
 	text-align:left;
 }
 
-.titulo{
-	font: 1.4em arial;
+p{
+	padding: 0px 30px 0px 30px;
+	font: 1.1em arial;
 	text-align:left;
+	text-indent:15px;
 }
+
+
+
