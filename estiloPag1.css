@@ -2,11 +2,8 @@ body{
 	text-align: center;
 }
 
-#bloques {/* bloque que coge todos los divs*/
+#bloques {/* bloque que coge todos los divs*/	
 	
-	
-	
-	border: 1px solid red;
 }
 
 #bloqueSuperior{/*div que coge div imagen y div navegador*/
@@ -16,14 +13,10 @@ body{
 	
 }
 #bloqueImagen {
-	
 	/*padding : 10px 10px 10px 10px;/*arriba,derecha,abajo,izqda*/
-	
-	height:106px;
-	/*width:700px; esto tengo que quitarlo para que el elemento se adapte a la pagina*/
-	
+	/*margin: 0px 0px 0px 0px;*/
 	/*border: 1px solid red;*/
-	margin: 0px 0px 0px 0px;
+	height:106px;	
 	background-image: url("superior.jpg");
 }
 
@@ -36,7 +29,6 @@ body{
 	/*background-image: url("gris.jpg");*/
 	background-color: red;
 	padding: : 10px 10px 10px 10px;
-	/*border: 1px solid red;*/
 }
 
 
@@ -50,13 +42,9 @@ body{
 	
 }
 
-#bloqueMedio{
-	
-	padding : 10px 10px 10px 10px;
-	
+#bloqueMedio{	
+	padding : 10px 10px 10px 10px;	
 }
-
-
 
 #presentacion{
 	margin: 30px 30px 0px 00px;

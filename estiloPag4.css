@@ -3,12 +3,15 @@ body{
 }
 
 #bloques {/* bloque que coge todos los divs*/	
+	
 }
 
-#bloqueSuperior{/*div que coge div imagen y div navegador*/	
-	border: 1px solid black;
+#bloqueSuperior{/*div que coge div imagen y div navegador*/
+	
+	
+	/*border: 1px solid red;*/
+	
 }
-
 #bloqueImagen {
 	/*padding : 10px 10px 10px 10px;/*arriba,derecha,abajo,izqda*/
 	/*margin: 0px 0px 0px 0px;*/
@@ -16,6 +19,7 @@ body{
 	height:106px;	
 	background-image: url("superior.jpg");
 }
+
 
 #navegador{
 	height:30px;
@@ -27,64 +31,55 @@ body{
 	padding: : 10px 10px 10px 10px;
 }
 
-.enlace{	
+
+.enlace{
+	
 	font: bold 1.2em arial;
 	float:left;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	padding : 0px 0px 0px 15px;	
+	padding : 0px 0px 0px 15px;
+	
 }
 
-#bloqueMedio1{	
-	padding : 10px 10px 10px 10px;	
+#tablaUK{
+	float:center;
 }
 
-.destino{
-	margin: 20px 20px 20px 20px;		
+.tabla{
+	margin: 30px 30px 30px 30px;
+	
 }
 
-.cajaDestinoIzquierda{
-	width: 600px;
-	height:600px;
-	margin: 40px 0px 0px 40px;
-	float:left;
+th{
+	font: bold 1.4em arial;
+	border: black 2px solid ;
+	margin: 15px;
+	padding: 15px;
 }
 
-.cajaDestinoDerecha{
-	width: 600px;
-	height:600px;
-	margin: 40px 40px 0px 0px;
-	float:right;
+td{
+	font: 1.2em arial;
+	border: black 2px solid ;
+	margin: 15px;
+	padding: 15px;
 }
 
-
-
-.destino{/*caja total destino 1*/
-	width: 1350px;
-	height:700px;
+td .ciudad .pais{
+	font-weight: bold;
 }
 
-
-.titulo{
-	padding: 10px 30px 0px 30px;
-}
-
-#parrafoInferior{
-	font: 3.5em arial;
+.precio{
 	font-style: italic;
 }
 
-h1{
-	font: 1.3em  arial;
+.parrafo{
+	font: 1.1em arial;
 	text-align:left;
 }
 
-p{
-	padding: 0px 30px 0px 30px;
-	font: 1em arial;
+.titulo{
+	font: 1.4em arial;
 	text-align:left;
-	text-indent:15px;
 }
-
-
 
