@@ -59,25 +59,25 @@ body{
 }
 
 .cajaDestinoIzquierda{
-	width: 650px;
-	height:650px;
-	margin: 50px 0px 0px 50px;
+	width: 600px;
+	height:600px;
+	margin: 40px 0px 0px 40px;
 	float:left;
 }
 
 .cajaDestinoDerecha{
-	width: 650px;
-	height:650px;
-	margin: 50px 50px 0px 0px;
+	width: 600px;
+	height:600px;
+	margin: 40px 40px 0px 0px;
 	float:right;
 
 }
 
 
 
-#destino1{
-	width: 1500px;
-	height:750px;
+#destino1{/*caja total destino 1*/
+	width: 1350px;
+	height:700px;
 	border: 1px solid red;
 	
 }
@@ -117,13 +117,13 @@ body{
 }
 
 h1{
-	font: 1.4em  arial;
+	font: 1.3em  arial;
 	text-align:left;
 }
 
 p{
 	padding: 0px 30px 0px 30px;
-	font: 1.1em arial;
+	font: 1em arial;
 	text-align:left;
 	text-indent:15px;
 }
