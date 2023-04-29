@@ -18,17 +18,20 @@ body{
 	/*border: 1px solid red;*/
 	height:106px;	
 	background-image: url("superior.jpg");
+	
+	
+	
 }
 
 
 #navegador{
-	height:30px;
-	/*width:700px; esto tengo que quitarlo para que el elemento se adapte a la pagina*/
+	height:35px;
+	width:2500px; /*esto tengo que quitarlo para que el elemento se adapte a la pagina*/
 	/*background-color: purple;
 	background: linear-gradient(red,pink);*/
 	/*background-image: url("gris.jpg");*/
-	background-color: red;
-	padding: : 10px 10px 10px 10px;
+	background-color: #F1F1CA;	
+	
 }
 
 
@@ -39,30 +42,88 @@ body{
 	margin-top: 5px;
 	margin-bottom: 5px;
 	padding : 0px 0px 0px 15px;
+	color: #0C4132;
 	
 }
 
-#tablaUK{
-	float:center;
+#bloqueMedio{
+	margin-top:10px;
+	
+	height:700px;	
+	background-position: center;		
+	background-image: url("images/brighton2_70.png");
+	
+}
+
+table{
+	
+}
+
+.tablas{/*caja total destino 1*/
+	width: 1500px;
+	height:600px;
 }
 
 .tabla{
-	margin: 30px 30px 30px 30px;
+	margin: 40px 40px 40px 40px;
+	border:  2px solid black ;
+	border-radius: 30px;
+	background-color: #D7DBDD;
+	
+	height:200px;
+
 	
 }
 
 th{
-	font: bold 1.4em arial;
 	border: black 2px solid ;
+	border-radius: 30px;
+	background-position: center;	
+	opacity: 0.7;
+	height:50px;
+	font: bold 1.4em arial;
+	/*border: black 2px solid ;*/
 	margin: 15px;
 	padding: 15px;
 }
 
+#tablaEspana {
+	 float:left;
+	 
+	 }
+	 
+ #tablaUK {
+	 float:left;
+	 }
+
+#tablaItalia {
+	 float:left;
+	 }
+
+#tablaEspana .pais{
+	 background-image: url("images/banderaEspana.jpg");	
+	 background-size: 90px;
+	 
+	 }
+	 
+ #tablaUK .pais{
+	 background-image: url("images/banderaUk.png");	
+	 background-size: 300px;
+	 }
+
+#tablaItalia .pais{
+	 background-image: url("images/banderaItalia.png");	
+	 background-size: 390px;
+	 }
+
 td{
+	width:150px;
 	font: 1.2em arial;
 	border: black 2px solid ;
+	border-radius: 30px;
 	margin: 15px;
 	padding: 15px;
+	background-color: #F1F1CA;
 }
 
 td .ciudad .pais{
@@ -82,4 +143,6 @@ td .ciudad .pais{
 	font: 1.4em arial;
 	text-align:left;
 }
+
+
 
