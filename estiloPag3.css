@@ -14,12 +14,13 @@ body{
 	/*margin: 0px 0px 0px 0px;*/
 	/*border: 1px solid red;*/
 	height:106px;	
+	width:2050px;	
 	background-image: url("superior.jpg");
 }
 
 #navegador{
 	height:35px;	
-	width:2500px;
+	width:2050px;
 	/*background-color: purple;
 	background: linear-gradient(red,pink);*/
 	/*background-image: url("gris.jpg");*/

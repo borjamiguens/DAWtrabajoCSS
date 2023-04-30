@@ -14,12 +14,14 @@ body{
 	/*margin: 0px 0px 0px 0px;*/
 	/*border: 1px solid red;*/
 	height:106px;	
+	width:2050px;
 	background-image: url("superior.jpg");
 }
 
 #navegador{
 	height:35px;
-	width:2500px;/*width:700px; esto tengo que quitarlo para que el elemento se adapte a la pagina*/
+		width:2050px;
+/*width:700px; esto tengo que quitarlo para que el elemento se adapte a la pagina*/
 	/*background-color: purple;
 	background: linear-gradient(red,pink);*/
 	/*background-image: url("gris.jpg");*/
@@ -37,6 +39,8 @@ body{
 }
 
 #bloqueMedio{	
+	width:2050px;
+
 	padding : 10px 10px 10px 10px;	
 	background-color:white;
 }
