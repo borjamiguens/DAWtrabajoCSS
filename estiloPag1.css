@@ -46,6 +46,7 @@ body{
 }
 
 #bloqueMedio{	
+	margin:auto;
 	padding : 30px;
 	height:auto;
 	min-height:700px;	
@@ -57,7 +58,7 @@ body{
 
 fieldset{
 	margin:auto;/*la clave de todos los float centers junto con float center*/
-	float:center;
+	
 	padding : 0px 20px 20px 20px;
 	width:700px;		
 	min-width:800px;

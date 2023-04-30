@@ -1,53 +1,47 @@
-body{
-	text-align: center;
-}
 
-#bloques {/* bloque que coge todos los divs*/	
-	
-}
-
-#bloqueSuperior{/*div que coge div imagen y div navegador*/
-	
-	
-	/*border: 1px solid red;*/
-	
-}
-#bloqueImagen {
 	/*padding : 10px 10px 10px 10px;/*arriba,derecha,abajo,izqda*/
 	/*margin: 0px 0px 0px 0px;*/
-	/*border: 1px solid red;*/
-	height:106px;
-	width:auto;
-	min-width:1460px;
+	/*border: 1px solid red;*/	
+	/*background-image: url("images/logoDaw.png");*/
 	
-	background-image: url("superior.jpg");
-	background-color: purple;
+body{
+	text-align: center;/*importante, si solo hay un elemento no hace falta float center*/
+}
+
+#bloques {/* bloque que coge todos los divs*/		
+}
+
+#bloqueSuperior{/*div que coge div imagen y div navegador*/		
+}		
 	
+#bloqueImagen{	
+	margin: : 20px 0px 20px 0px;
+	width:auto;	
+	min-width:1260px;	
+	background-color:white;
+}	
 	
+.logo{
+	margin: 20px 0px 20px 0px;	
+	height:120px;
+		
 }
 
 
-#navegador{
-	height:35px;
+#navegador{	
+	padding : 5px 0px 5px 0px;
+	height:auto;
 	width:auto;
-	min-width:1460px; /*esto tengo que quitarlo para que el elemento se adapte a la pagina*/
+	min-width:1260px;/*con esto consigo que no se me apelotonen los enlaces del navegador*/	
 	
-	/*background-color: purple;
-	background: linear-gradient(red,pink);*/
-	/*background-image: url("gris.jpg");*/
-	background-color: #F1F1CA;	
-	
+	background-color: #F1F1CA;
 }
 
-
-.enlace{
-	
-	font: bold 1.2em arial;
-	float:left;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	padding : 0px 0px 0px 15px;
-	color: #0C4132;
+.enlace{	
+	padding : 0px 15px 0px 15px;
+	float:left-center;	
+	font: bold 1.2em arial;	
+	color: #0C4132;	
 	
 }
 
