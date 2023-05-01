@@ -47,8 +47,8 @@ body{
 
 #bloqueMedio{
 	padding : 30px 30px 30px 30px;
-	height:auto;
-	min-height:700px;	
+	height:650px;
+	
 	width:auto;
 	min-width:1400px;
 	background-image: url("images/brighton2_70.png");
@@ -62,8 +62,7 @@ table{
 .tablas{/*caja total destino 1*/
 	margin:auto;
 	padding : 30px 30px 30px 30px;
-	width:1400px;
-	height: 950px;
+	width:1400px;	
 	float:center;
 	
 	
