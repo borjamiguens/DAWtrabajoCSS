@@ -1,39 +1,22 @@
-
-	/*padding : 10px 10px 10px 10px;/*arriba,derecha,abajo,izqda*/
-	/*margin: 0px 0px 0px 0px;*/
-	/*border: 1px solid red;*/	
-	/*background-image: url("images/logoDaw.png");*/
-	
 body{
 	text-align: center;/*importante, si solo hay un elemento no hace falta float center*/
 }
-
-#bloques {/* bloque que coge todos los divs*/		
-}
-
-#bloqueSuperior{/*div que coge div imagen y div navegador*/		
-}		
 	
 #bloqueImagen{	
-	margin: : 20px 0px 20px 0px;
 	width:auto;	
-	min-width:1360px;	
-	background-color:white;
+	min-width:1350px;	
+	background-color:#66cdaa;
 }	
 	
 .logo{
 	margin: 20px 0px 20px 0px;	
-	height:120px;
-		
+	height:120px;		
 }
 
-
-#navegador{	
+#navegador {	
 	padding : 5px 0px 5px 0px;
-	height:auto;
 	width:auto;
-	min-width:1360px;/*con esto consigo que no se me apelotonen los enlaces del navegador*/	
-	
+	min-width:1350px;/*con esto consigo que no se me apelotonen los enlaces del navegador*/		
 	background-color: #F1F1CA;
 }
 
@@ -41,8 +24,7 @@ body{
 	padding : 0px 15px 0px 15px;
 	float:left-center;	
 	font: bold 1.2em arial;	
-	color: #0C4132;	
-	
+	color: #0C4132;		
 }
 
 #bloqueMedio{	
@@ -84,9 +66,38 @@ body{
 }
 
 #parrafoInferior{
-	margin-left: auto;
-	font: 3.5em arial;
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:50px;
+	
+	width:1280px;
+	font: 2.5em arial;
 	font-style: italic;
+}
+
+
+#pie{
+		
+	width:auto;
+	min-width:1350px;
+	height:20px;	
+	font:0.8em arial;	
+}
+
+.pieIzquierdo{
+	margin-left:10px;	
+	font-style: italic;
+	float:left;
+	
+}
+
+.pieDerecho{
+	margin-right:20px;
+	font-style: italic;
+	float:right;
+	
 }
 
 h1{
@@ -101,6 +112,4 @@ p{
 	text-align:left;
 	text-indent:15px;
 }
-
-
 

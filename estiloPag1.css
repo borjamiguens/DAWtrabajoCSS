@@ -7,33 +7,22 @@
 body{
 	text-align: center;/*importante, si solo hay un elemento no hace falta float center*/
 }
-
-#bloques {/* bloque que coge todos los divs*/		
-}
-
-#bloqueSuperior{/*div que coge div imagen y div navegador*/		
-}		
 	
 #bloqueImagen{	
-	margin: : 20px 0px 20px 0px;
 	width:auto;	
-	min-width:1260px;	
-	background-color:#66cdaa		;
+	min-width:1200px;	
+	background-color:#66cdaa;
 }	
 	
 .logo{
 	margin: 20px 0px 20px 0px;	
-	height:120px;
-		
+	height:120px;		
 }
 
-
-#navegador{	
+#navegador {	
 	padding : 5px 0px 5px 0px;
-	height:auto;
 	width:auto;
-	min-width:1260px;/*con esto consigo que no se me apelotonen los enlaces del navegador*/	
-	
+	min-width:1200px;/*con esto consigo que no se me apelotonen los enlaces del navegador*/		
 	background-color: #F1F1CA;
 }
 
@@ -41,40 +30,41 @@ body{
 	padding : 0px 15px 0px 15px;
 	float:left-center;	
 	font: bold 1.2em arial;	
-	color: #0C4132;	
-	
+	color: #0C4132;		
 }
 
 #bloqueMedio{	
-	margin:auto;
-	padding : 30px;
-	height:auto;
-	min-height:700px;	
+	padding-top:30px;
+	padding-bottom:30px;
 	width:auto;
 	min-width:1200px;
-	background-image: url("images/brighton2_20.png");
-	
+	background-image: url("images/brighton2_20.png");	
 }
 
 fieldset{
-	margin:auto;/*la clave de todos los float centers junto con float center*/
-	
+	margin:auto;/*la clave de todos los float centers junto con float center*/	
 	padding : 0px 20px 20px 20px;
-	width:700px;		
-	min-width:800px;
-	
+	width:700px;	
+	height:70px;
 	background-color:#F1F1CA;
-	float:center;	
+	border-radius: 30px;
 }
 
 legend{
 	font: 1.2em arial;
 	text-align:left;
+	font-style: italic;
 }
 
 .etiqueta{
 	font: 1.1em arial;
 	text-align:left;
+	font-style: italic;
+}
+
+#usuario #password{
+	size:25;
+	maxlength:50;
 }
 
 text{
@@ -85,46 +75,63 @@ text{
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:40px;
-	
-	height:500px;
-	width:1200px;		
-	
-	border: 1px solid red;
-
+	margin-bottom:40px;		
+	height:700px;
+	width:1200px;	
+	border-radius: 30px;
+	background-color:#F1F1CA;
 }
 
 .logoGrande{	
-	margin:20px;
+	margin-top:100px;
+	margin-left:20px;
 	height:450px;
 	width:450px;
-	float:left;
-	border: 1px solid red;
+	float:left;	
 }
 
-
-
-#presentacion{
-	margin:20px;
-	padding:10px;
-	height:450px;
-	width:620px;
-	float:right;
-	
+#presentacion{	
+	padding:20px;
+	margin-right:20px;
+	height:630px;
+	width:620px;	
 	text-align:left;
-	text-indent: 15px;	
 	
-	border: 1px solid red;
-	
-
+	float:right;
 }
 
 .titulo{
-	font: 1.4em arial;	
+	font: bold 1.4em arial;	
 }
 
-.parrafo{
+p{
+	text-indent: 15px;	
 	font: 1.2em arial;	
 }
+
+#pie{
+		
+	width:auto;
+	min-width:1200px;
+	height:20px;	
+	font:0.8em arial;	
+}
+
+.pieIzquierdo{
+	margin-left:10px;	
+	font-style: italic;
+	float:left;
+	
+}
+
+.pieDerecho{
+	margin-right:20px;
+	font-style: italic;
+	float:right;
+	
+}
+
+
 
 
 
