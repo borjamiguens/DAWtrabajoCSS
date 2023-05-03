@@ -23,7 +23,7 @@ body{
 .enlace{	
 	padding : 0px 15px 0px 15px;
 	float:left-center;	
-	font: bold 1.2em arial;	
+	font: bold 1.2em calibri;	
 	color: #0C4132;		
 }
 
@@ -73,7 +73,7 @@ body{
 	padding-left:50px;
 	
 	width:1280px;
-	font: 2.5em arial;
+	font: 2.5em calibri;
 	font-style: italic;
 }
 
@@ -83,7 +83,7 @@ body{
 	width:auto;
 	min-width:1350px;
 	height:20px;	
-	font:0.8em arial;	
+	font:1em calibri;	
 }
 
 .pieIzquierdo{
@@ -101,14 +101,14 @@ body{
 }
 
 h1{
-	font: 1.3em  arial;
+	font: 1.3em  calibri;
 	text-align:left;
 }
 
 p{
 	
 	padding: 0px 30px 0px 30px;
-	font: 1.1em arial;
+	font: 1.1em calibri;
 	text-align:left;
 	text-indent:15px;
 }

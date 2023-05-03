@@ -1,0 +1,165 @@
+body{
+	text-align: center;/*importante, si solo hay un elemento no hace falta float center*/
+}
+		
+#bloqueImagen{	
+	width:auto;	
+	min-width:1200px;	
+	background-color:#66cdaa;
+}	
+	
+.logo{
+	margin: 20px 0px 20px 0px;	
+	height:120px;		
+}
+
+#navegador {	
+	padding : 5px 0px 5px 0px;
+	width:auto;
+	min-width:1200px;/*con esto consigo que no se me apelotonen los enlaces del navegador*/		
+	background-color: #F1F1CA;
+}
+
+.enlace{	
+	padding : 0px 15px 0px 15px;
+	float:left-center;	
+	font: bold 1.2em calibri ;	/*courier*/ /*calibri*/
+	color: #0C4132;		
+}
+
+#bloqueMedio{		
+
+	padding-top:150px;
+	height:850px;	
+	width:auto;
+	min-width:1200px;
+	background-image: url("images/brighton2_70.png");
+	
+}
+
+
+
+#bloqueContacto{	
+	
+	margin:auto;	
+	height:700px;
+	width:1000px;	
+	border-radius: 30px;
+	background-color:#F1F1CA;
+	
+}
+
+.logoGrande{	
+	margin-top:120px;
+	margin-left:50px;
+	
+	height:450px;
+	width:450px;
+	float:left;	
+	
+}
+
+#contactos{	
+	margin-top:70px;
+	
+	margin-right:50px;
+	height:500px;
+	width:400px;
+	float:right;
+	
+}
+.contacto{	
+	margin-left:10px;
+	margin-bottom:30px;
+	padding-left:30px;
+	height:230px;
+	width:360px;	
+	border-radius: 30px;
+	background-color:white;
+
+	
+	
+
+	
+}
+
+
+
+.nombre{
+	font: 1.6em calibri ;	/*courier*/ /*calibri*/
+	/*font-style: italic;*/
+}
+
+.lineaContacto{
+	margin-top:20px;
+	height:50px;
+	width:450px;
+}
+
+#whatsapp{
+	width:50px;
+	float:left;
+}
+
+#mail{
+	width:50px;
+	float:left;
+}
+
+.contacto{
+	margin-top:10px;	
+	padding-left:40px;
+	float:left;
+}
+
+
+.telefono{
+	margin-top:15px;
+	padding-left:10px;
+	float:left;
+}
+
+.correo{
+	margin-top:5px;
+	padding-left:10px;
+	font: 1.1em arial;
+	text-align:left;
+	float:left;
+}
+
+
+
+
+p{
+	font: 1.1em arial;
+	text-align:left;
+}
+
+.titulo{
+	font: 1.4em arial;
+	text-align:left;
+}
+
+
+#pie{
+		
+	width:auto;
+	min-width:1000px;
+	height:20px;	
+	font:1em calibri;	
+}
+
+.pieIzquierdo{
+	margin-left:10px;	
+	font-style: italic;
+	float:left;
+	
+}
+
+.pieDerecho{
+	margin-right:20px;
+	font-style: italic;
+	float:right;
+	
+}
+

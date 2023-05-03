@@ -29,7 +29,7 @@ body{
 .enlace{	
 	padding : 0px 15px 0px 15px;
 	float:left-center;	
-	font: bold 1.2em arial;	
+	font: bold 1.2em calibri;	
 	color: #0C4132;		
 }
 
@@ -38,7 +38,7 @@ body{
 	padding-bottom:30px;
 	width:auto;
 	min-width:1200px;
-	background-image: url("images/brighton2_20.png");	
+	background-image: url("images/brighton2_70.png");	
 }
 
 fieldset{
@@ -51,13 +51,17 @@ fieldset{
 }
 
 legend{
-	font: 1.2em arial;
+	padding:0px 20px 0px 20px;
+	background-color:#F1F1CA;
+	font: 1.2em calibri;
 	text-align:left;
 	font-style: italic;
+	border: 1px solid black;
+	
 }
 
 .etiqueta{
-	font: 1.1em arial;
+	font: 1.1em calibri;
 	text-align:left;
 	font-style: italic;
 }
@@ -83,7 +87,7 @@ text{
 }
 
 .logoGrande{	
-	margin-top:100px;
+	margin-top:120px;
 	margin-left:20px;
 	height:450px;
 	width:450px;
@@ -101,12 +105,12 @@ text{
 }
 
 .titulo{
-	font: bold 1.4em arial;	
+	font: bold 1.4em calibri;	
 }
 
 p{
 	text-indent: 15px;	
-	font: 1.2em arial;	
+	font: 1.2em calibri;	
 }
 
 #pie{
@@ -114,7 +118,7 @@ p{
 	width:auto;
 	min-width:1200px;
 	height:20px;	
-	font:0.8em arial;	
+	font:1em calibri;	
 }
 
 .pieIzquierdo{
