@@ -7,10 +7,10 @@
 body{
 	text-align: center;/*importante, si solo hay un elemento no hace falta float center*/
 }
-	
+
 #bloqueImagen{	
 	width:auto;	
-	min-width:1200px;	
+	min-width:1300px;	
 	background-color:#66cdaa;
 }	
 	
@@ -22,7 +22,7 @@ body{
 #navegador {	
 	padding : 5px 0px 5px 0px;
 	width:auto;
-	min-width:1200px;/*con esto consigo que no se me apelotonen los enlaces del navegador*/		
+	min-width:1300px;/*con esto consigo que no se me apelotonen los enlaces del navegador*/		
 	background-color: #F1F1CA;
 }
 
@@ -37,17 +37,18 @@ body{
 	padding-top:30px;
 	padding-bottom:30px;
 	width:auto;
-	min-width:1200px;
+	min-width:1300px;
 	background-image: url("images/brighton2_70.png");	
 }
 
 fieldset{
-	margin:auto;/*la clave de todos los float centers junto con float center*/	
+	margin:auto;
 	padding : 0px 20px 20px 20px;
 	width:700px;	
 	height:70px;
 	background-color:#F1F1CA;
 	border-radius: 30px;
+	border: 1px solid black;
 }
 
 legend{
@@ -56,8 +57,7 @@ legend{
 	font: 1.2em calibri;
 	text-align:left;
 	font-style: italic;
-	border: 1px solid black;
-	
+	border: 1px solid black;	
 }
 
 .etiqueta{
@@ -68,8 +68,7 @@ legend{
 
 #usuario #password{
 	size:25;
-	maxlength:50;
-}
+	}
 
 text{
 	margin: 0px 20px 0px 20px;
@@ -95,7 +94,6 @@ text{
 }
 
 #presentacion{	
-
 	padding:20px;
 	margin-right:20px;
 	height:630px;
@@ -116,7 +114,7 @@ p{
 #pie{
 		
 	width:auto;
-	min-width:1200px;
+	min-width:1300px;
 	height:20px;	
 	font:1em calibri;	
 }

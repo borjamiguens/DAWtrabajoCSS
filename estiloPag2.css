@@ -1,5 +1,5 @@
 body{
-	text-align: center;/*importante, si solo hay un elemento no hace falta float center*/
+	text-align: center;
 }
 	
 #bloqueImagen{	
@@ -27,15 +27,12 @@ body{
 	color: #0C4132;		
 }
 
-#bloqueMedio{	
-	margin-left: auto;
-	margin-right: auto;
-
+#bloqueMedio{		
 	padding : 10px 10px 10px 10px;	
 	background-color:white;
 }
 
-.destino{
+.destino{/*caja con las 3 cajaDestino*/
 	margin:auto;
 	width:1350px;
 	height:700px;	
@@ -56,30 +53,18 @@ body{
 	float:right;	
 }
 
-
-
-
-
-
-.titulo{
-	padding: 10px 30px 0px 30px;
-}
-
 #parrafoInferior{
 	margin-top:30px;
 	margin-bottom:30px;
 	margin-left:auto;
 	margin-right:auto;
-	padding-left:50px;
-	
+	padding-left:50px;	
 	width:1280px;
 	font: 2.5em calibri;
 	font-style: italic;
 }
 
-
-#pie{
-		
+#pie{		
 	width:auto;
 	min-width:1350px;
 	height:20px;	
@@ -89,24 +74,22 @@ body{
 .pieIzquierdo{
 	margin-left:10px;	
 	font-style: italic;
-	float:left;
-	
+	float:left;	
 }
 
 .pieDerecho{
 	margin-right:20px;
 	font-style: italic;
-	float:right;
-	
+	float:right;	
 }
 
-h1{
+.titulo{
+	padding: 10px 30px 0px 30px;
 	font: 1.3em  calibri;
 	text-align:left;
 }
 
-p{
-	
+p{	
 	padding: 0px 30px 0px 30px;
 	font: 1.1em calibri;
 	text-align:left;

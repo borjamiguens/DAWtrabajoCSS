@@ -44,18 +44,11 @@ body{
 
 .imagenCompania{
 	margin-top: 50px;
-	margin-bottom: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	height: 220px;
-	
-	
-	
-	/*border: 1px solid red;*/
+	margin-bottom: 50px;	
+	height: 220px;	
 }
 
-#pie{
-		
+#pie{		
 	width:auto;
 	min-width:1000px;
 	height:20px;	
@@ -65,15 +58,13 @@ body{
 .pieIzquierdo{
 	margin-left:10px;	
 	font-style: italic;
-	float:left;
-	
+	float:left;	
 }
 
 .pieDerecho{
 	margin-right:20px;
 	font-style: italic;
-	float:right;
-	
+	float:right;	
 }
 
 

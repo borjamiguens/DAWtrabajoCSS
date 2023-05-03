@@ -28,45 +28,35 @@ body{
 }
 
 #bloqueMedio{		
-
 	padding-top:150px;
 	height:850px;	
 	width:auto;
 	min-width:1200px;
-	background-image: url("images/brighton2_70.png");
-	
+	background-image: url("images/brighton2_70.png");	
 }
 
-
-
-#bloqueContacto{	
-	
+#bloqueContacto{/*contiene logo y div contactos*/		
 	margin:auto;	
 	height:700px;
 	width:1000px;	
 	border-radius: 30px;
-	background-color:#F1F1CA;
-	
+	background-color:#F1F1CA;	
 }
 
 .logoGrande{	
 	margin-top:120px;
-	margin-left:50px;
-	
+	margin-left:50px;	
 	height:450px;
 	width:450px;
-	float:left;	
-	
+	float:left;		
 }
 
-#contactos{	
-	margin-top:70px;
-	
+#contactos{	/*contiene los div contacto*/
+	margin-top:70px;	
 	margin-right:50px;
 	height:500px;
 	width:400px;
-	float:right;
-	
+	float:right;	
 }
 .contacto{	
 	margin-left:10px;
@@ -75,19 +65,7 @@ body{
 	height:230px;
 	width:360px;	
 	border-radius: 30px;
-	background-color:white;
-
-	
-	
-
-	
-}
-
-
-
-.nombre{
-	font: 1.6em calibri ;	/*courier*/ /*calibri*/
-	/*font-style: italic;*/
+	background-color:white;	
 }
 
 .lineaContacto{
@@ -96,12 +74,17 @@ body{
 	width:450px;
 }
 
-#whatsapp{
+.nombre{
+	font:  bold 1.6em calibri ;	/*courier*/ /*calibri*/
+	/*font-style: italic;*/
+}
+
+#whatsappIcon{
 	width:50px;
 	float:left;
 }
 
-#mail{
+#mailIcon{
 	width:50px;
 	float:left;
 }
@@ -112,18 +95,17 @@ body{
 	float:left;
 }
 
-
 .telefono{
 	margin-top:15px;
 	padding-left:10px;
+	font: 1.1em arial;
 	float:left;
 }
 
 .correo{
 	margin-top:5px;
 	padding-left:10px;
-	font: 1.1em arial;
-	text-align:left;
+font: 1.1em arial;	
 	float:left;
 }
 
